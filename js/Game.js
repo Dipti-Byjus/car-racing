@@ -158,6 +158,8 @@ class Game {
 
           this.handleFuel(index);
           this.handlePowerCoins(index);
+          
+          //have the func
           this.handleObstacleCollision(index);
           // Changing camera position in y direction
           camera.position.x = cars[index - 1].position.x;
